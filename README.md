@@ -1,4 +1,4 @@
-# Invoice Attachment Module
+# Invoice Attachment Module (Tested in PS 1.7.8.9)
 
 Welcome to the **Invoice Attachment Module**! This free module facilitates the seamless attachment of invoices to orders. The key features of this module include:
 
