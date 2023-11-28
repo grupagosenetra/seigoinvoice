@@ -20,7 +20,7 @@
                                 <tr>
                                     <td>{$item.order->reference}</td>
                                     <td>
-                                        <a class="btn btn-primary" href="/upload/seigoinvoice/{$item.invoice->filename}" download>
+                                        <a class="btn btn-primary" href="/img/seigoinvoice/{$item.invoice->filename}" download>
                                             {l s='Pobierz' d='Admin.Global'}
                                         </a>
                                     </td>

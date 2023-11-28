@@ -134,7 +134,7 @@ class SeigoInvoiceInvoiceModuleFrontController extends ModuleFrontController
         $this->context->smarty->assign([
             'id_order' => $id_order,
             'filename' => $filename,
-            'filePath' => Context::getContext()->shop->getBaseURL(true) . 'upload/seigoinvoice/' . $filename
+            'filePath' => Context::getContext()->shop->getBaseURL(true) . 'img/seigoinvoice/' . $filename
         ]);
 
         die(json_encode([
@@ -160,7 +160,7 @@ class SeigoInvoiceInvoiceModuleFrontController extends ModuleFrontController
         if (empty($filename))
             return false;
 
-        $invoice_url = '<a href="' . Context::getContext()->shop->getBaseURL(true) . 'upload/seigoinvoice/' . $filename . '">' . $this->trans('Faktura', [], 'Emails.Subject') . '</a>';
+        $invoice_url = '<a href="' . Context::getContext()->shop->getBaseURL(true) . 'img/seigoinvoice/' . $filename . '">' . $this->trans('Faktura', [], 'Emails.Subject') . '</a>';
 
         $language = new Language($customer->id_lang);
 

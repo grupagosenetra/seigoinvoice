@@ -15,7 +15,7 @@ class Sinvoice extends ObjectModel
 
     public $date_add;
 
-    public static $dir = _PS_CORE_DIR_ . '/upload/seigoinvoice/';
+    public static $dir = _PS_CORE_DIR_ . '/img/seigoinvoice/';
 
     public static $definition = array(
         'table' => 'seigo_invoice',
